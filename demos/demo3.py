@@ -13,7 +13,7 @@ import face_recognition
 Have not tested this version of the code yet. 
 
 Whats Changed:
-I decided to use dlib facial recognition because it is better than openCVs built-in facial recognition feature
+- Same as demo2 except it uses dlibs facial recognition
 """
 
 class FaceRecognitionSystem:
