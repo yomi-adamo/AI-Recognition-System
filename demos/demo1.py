@@ -3,6 +3,11 @@ import numpy as np
 import os
 from pathlib import Path
 
+"""
+Demo1.py original test using openCVs built in facial recognition feature. This is what I used for my original webcam test that recognized my face
+and displays a box with my name around it.
+"""
+
 class FaceRecognitionSystem:
     def __init__(self, reference_images_path="reference_faces"):
         # Initialize face detection and recognition
