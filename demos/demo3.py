@@ -9,6 +9,13 @@ import requests
 import dlib
 import face_recognition
 
+"""
+Have not tested this version of the code yet. 
+
+Whats Changed:
+I decided to use dlib facial recognition because it is better than openCVs built-in facial recognition feature
+"""
+
 class FaceRecognitionSystem:
     def __init__(self, reference_images_path="reference_faces", location_name="Unknown Location"):
         # Initialize face detection and recognition
