@@ -7,6 +7,15 @@ from datetime import datetime
 from pathlib import Path
 import requests
 
+"""
+Have not tested this version.
+
+Whats Changed?"
+
+- This version has a Real-Time logging system that logs the GPS, time, etc.
+- This version uses openCVs facial recognition.
+"""
+
 class FaceRecognitionSystem:
     def __init__(self, reference_images_path="reference_faces", location_name="Unknown Location"):
         # Initialize face detection and recognition
