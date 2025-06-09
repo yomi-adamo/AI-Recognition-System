@@ -23,4 +23,6 @@ pip install face_recognition opencv-python requests numpy
 The logs folder will be automatically generated when you run the code
 
 ### Run the Program
+~~~bash
 pyton demo(demo#).py
+~~~
